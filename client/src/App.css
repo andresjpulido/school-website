@@ -1,0 +1,9 @@
+@import "./styles/palette.css";
+
+body {
+	background-color: var(--secundary-bg-color);
+}
+
+.content{
+	display: flex;
+}

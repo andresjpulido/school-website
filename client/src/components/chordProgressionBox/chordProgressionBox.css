@@ -1,0 +1,15 @@
+@import "../../styles/palette.css";
+
+.chordProgressionTools{
+	margin: 1rem;
+}
+
+#svgchords{ 
+	height: 120px;
+	font-size: .3rem;
+	 
+} 
+
+#svgchords tspan{
+	 fill: var(--primary-knob-color)
+}
