@@ -1,8 +1,8 @@
 @import "../../styles/palette.css";
 
 .header {
-	background-color: var(--fifth-bg-color);
-	padding: 0.3rem;
+	background-color: var(--fourth-bg-color);
+	padding: 0.7rem;
 	display: flex;
 }
 
@@ -22,14 +22,19 @@
 	color: var(--secundary-bg-color);
 	font-weight: bolder;
 	font-size: 1.2rem;
+	font-family: av1;
+	padding-top: 0.1rem;
 }
 
 .logo-label {
-	background-color: var(--fifth-bg-color);
+	background-color: var(--fourth-bg-color);
 	color: var(--secundary-button-color);
 	margin-left: 0.4rem;
 }
 
+.logo-sign-out{
+	font-size: 1.5rem;
+}
 .nav {
 	display: flex;
 	width: 100%;
@@ -37,14 +42,21 @@
 	align-items: center;
 }
 
-.nav-item{
+.nav-item {
 	color: var(--primary-knob-color);
 	padding-right: 1rem;
-	font-size: .8rem;
-	font-weight: bold; 
+	font-size: 0.8rem;
+	font-weight: bold;
 }
 
-.nav-item:hover{
+.nav-item-active {
+	color: var(--secundary-button-color);
+	padding-right: 1rem;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+.nav-item:hover {
 	color: var(--secundary-button-color);
 	cursor: pointer;
- }
+}

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./chordProgressionBox.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+ 
 export default function ChordProgression() {
 	const [progression, setprogression] = useState([
 		"Cmaj7",
@@ -24,7 +23,7 @@ export default function ChordProgression() {
 		);
 	});
 	return (
-		<div class="chordProgressionBox">
+		<div className="chordProgressionBox">
 			<svg viewBox="0 0 297 70" id="svgchords" version="1.1">
 				<defs id="defs2" />
 

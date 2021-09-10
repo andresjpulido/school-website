@@ -1,0 +1,23 @@
+@import "../../styles/palette.css";
+
+.learning-menu {
+	color: var(--primary-knob-color);
+	display: flex;
+	margin: 2rem;
+}
+
+.learning-menu-item {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	background-color: var(--primary-bg-color);
+}
+
+.learning-menu-item-active {
+	background-color: var(--tertiary-knob-color);
+}
+
+.learning-menu-item:hover {
+	cursor: pointer;
+}

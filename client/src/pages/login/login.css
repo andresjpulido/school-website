@@ -1,16 +1,62 @@
 @import "../../styles/palette.css";
+@import "../../styles/fonts.css";
 
 .login {
-	display: flex;
 	align-items: center;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	margin-top: 8rem;
+}
+
+.login-header {
+	background-color: var(--fifth-bg-color);
+	padding: 0.3rem;
+	display: flex;
+	height: 8rem;
+	justify-content: center;
+	width: 100%;
+}
+
+.login-header-logo {
+	align-items: center;
+	display: flex;
+}
+
+.login-header-logo-background {
+	background-color: var(--secundary-button-color);
+	font-weight: bolder;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+
+.login-header-logo-font {
+	color: var(--secundary-bg-color);
+	font-weight: bolder;
+	font-size: 2rem;
+	font-family: av1;
+	padding-top: 0.5rem;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+
+.login-header-logo-label {
+	background-color: var(--fifth-bg-color);
+	color: var(--secundary-button-color);
+	font-size: 1.6rem;
+	font-family: av0;
+	margin-left: 0.4rem;
+	display: flex;
+}
+
+.login-header-logo-label > div{
+	font-size: .6rem;
 }
 
 .login-form {
 	background-color: var(--secundary-bg-color);
 	border-radius: 0.5rem;
 	border: 0.1px var(--tertiary-knob-color) solid;
+	margin-top: 4rem;
 	padding: 6rem;
 	width: auto;
 }
@@ -38,7 +84,7 @@
 	font-size: 1.5rem;
 	padding: 1rem;
 	text-align: center;
-	width: 1.5rem;
+	width: 3.5rem;
 }
 
 .login-service-label {

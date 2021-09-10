@@ -1,22 +1,25 @@
-@import "../../styles/palette.css";
-
- 
+@import "../../styles/palette.css"; 
  
 
 .chordProgressionBoxTools {
-	display: flex;
-	margin: 1rem;
-	padding: 0.1rem;
-	justify-content: space-between;
-	width: 100%;
+    display: flex;     
+    justify-content: space-between;
+    align-items: center;
 }
 
-.chordProgressionBoxTools .tool {
-	height: 1rem;
-	margin: 0.2rem;
-	padding: .5rem;
-	border-radius: .5rem;
+.chordProgressionBox-tool {	 
 	background-color: var(--primary-bg-color);
+	padding-top: .5rem;
+    padding-bottom: .5rem;     
+    width: 3rem;        
+    text-align: center;
+}
+
+.chordProgressionBox-tool-active{
+	background-color: var(--primary-button-color);
+	padding-top: .5rem;
+    padding-bottom: .5rem;     
+    width: 3rem; 
 	text-align: center;
 }
 
@@ -25,7 +28,7 @@
 	font-size: 1rem;
 }
 
-.chordProgressionBoxTools .tool:hover {
+.chordProgressionBox-tool:hover {
 	cursor: pointer;
-	 
+	background-color: var(--primary-button-color)
 }

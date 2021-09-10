@@ -2,6 +2,8 @@
 
 body {
 	background-color: var(--secundary-bg-color);
+	font-family: av0;
+	color: var(--tertiary-bg-color);
 }
 
 .content{

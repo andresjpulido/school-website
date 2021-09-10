@@ -67,7 +67,7 @@ export default function keyboard() {
 					cy="139"
 					r="4"
 					fill="white"
-					fill-opacity="0.5"
+					fillOpacity="0.5"
 					stroke="black"
 				/>
 

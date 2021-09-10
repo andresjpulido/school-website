@@ -1,19 +1,32 @@
 import React from "react";
 import "./login.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useHistory } from 'react-router-dom';
+ 
+import { useDispatch } from "react-redux";
+import {signIn} from "../../redux/actions/authAction";
 
 export default function Login() {
-	
-	let history = useHistory();
+	 
+	const dispatch = useDispatch();
 
 	const handleSubmit = async (event) => {
 		event.preventDefault();
-		history.push('/home');
-	}
+		dispatch(signIn());
+	};
 
 	return (
 		<div className="login">
+			<div className="login-header">
+				<div className="login-header-logo">
+					<div className="login-header-logo-background">
+						<div className="login-header-logo-font non-selectable">H</div>
+					</div>
+					<div className="login-header-logo-label non-selectable">
+						Harmonies<div>&trade;</div>
+					</div>
+				</div>
+			</div>
+
 			<div className="login-form">
 				<div className="login-service">
 					<div className="login-service-logo">

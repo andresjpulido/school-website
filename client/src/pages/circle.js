@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from "react";
-import Circle from "./components/circle";
-import Intervals from "./components/intervals";
+import React, { useState } from "react";
+import Circle from "../components/circle";
+import Intervals from "../components/intervals";
 
-import Notes from "./components/notes";
-import Keyboard from "./components/keyboard";
-import Sheet from "./components/sheet";
-import Fretboard from "./components/fretboard";
-import ChordProgression from "./components/chordProgressionBox";
-import ChordProgressionBoxTools from "./components/chordProgressionTools";
+import Notes from "../components/notes";
+import Keyboard from "../components/keyboard";
+import Sheet from "../components/sheet";
+import Fretboard from "../components/fretboard";
+import ChordProgression from "../components/chordProgressionBox";
+import ChordProgressionBoxTools from "../components/chordProgressionTools";
 
-export default function circlePage() {
+export default function CirclePage() {
 	const notes = [
 		{ id: 0, label: "C" },
 		{ id: 1, label: "C#" },
@@ -33,8 +33,7 @@ export default function circlePage() {
 		showBlackKeys: false,
 	});
 
-	let scale = {};
-
+ 
 	const changeTonic = (id) => {
 		let tonic = notes[id];
 		settonic(id);
