@@ -1,0 +1,10 @@
+@import "../../../../assets/styles/palette.css";
+
+.circleKeyboard {
+	display: flex;
+    flex-wrap: nowrap;
+}
+
+.chordprogressionDiv{
+    margin:2rem
+}

@@ -1,0 +1,60 @@
+@import "../../../assets/styles/palette.css";
+
+ 
+.courses {
+	color: var(--primary-knob-color);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.courses-item {
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	flex-grow: 2;
+	display: flex;
+	min-width: 300px;
+	margin-bottom: 1.5rem;
+}
+
+.courses-item-fcover {
+	width: 40%;
+	height: 15rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.courses-item-bcover {
+	width: 60%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1rem;
+}
+
+.courses-item-title {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.courses-item-author {
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+}
+
+.courses-item-description {
+	font-size: 1rem;
+}
+
+.form-button {
+	padding: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	width: -moz-fit-content;
+	width: fit-content;
+	background-color: var(--tertiary-knob-color);
+	margin-left: 1rem;
+	margin-top: 12rem;
+}
+
+.form-button:hover {
+	cursor: pointer;
+}

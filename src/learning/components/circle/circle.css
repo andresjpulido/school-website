@@ -1,0 +1,21 @@
+@import "../../../assets/styles/palette.css";
+
+.circle {
+	width: 400px;
+	height: 400px;
+	margin: 1.5rem;
+}
+ 
+#svgcircle tspan{
+	font-size: 2rem;
+	font-weight: bolder;
+	color: var(--primary-knob-color)
+}
+
+path {
+	/*fill: var(--tertiary-bg-color);*/
+}
+path:hover {
+	fill: var(--tertiary-knob-color);
+	cursor: pointer; 
+}

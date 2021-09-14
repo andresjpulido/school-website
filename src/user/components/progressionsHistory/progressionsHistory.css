@@ -1,0 +1,22 @@
+@import "../../../assets/styles/palette.css";
+
+.progression-history {
+	margin: 2rem;
+}
+
+.progression-history-list {
+	display: block;
+}
+
+.progression-history-item-chords {
+	display: flex;
+	margin: 1rem;
+}
+
+.progression-history-item-chord {
+	display: flex;
+	 
+	border-right: .1rem solid var(--secundary-knob-color);
+	padding-right: 1rem;
+	padding-left: 1rem;
+}

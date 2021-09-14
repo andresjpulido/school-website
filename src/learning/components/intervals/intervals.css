@@ -1,0 +1,36 @@
+@import "../../../assets/styles/palette.css";
+
+.intervals {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2rem;
+	padding: 0;
+	width: 400px; 
+	margin-left: 2rem;
+}
+
+.intervals-id {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.intervals-notes {
+}
+
+.intervals-item {
+	box-sizing: border-box;
+	flex-grow: 1;
+	text-align: center;
+	width: 3rem;
+	padding: 0.6em;
+	overflow: hidden;
+	list-style: none;
+	background-color: var(--secundary-bg-color);
+	margin: .1rem;
+}
+
+.intervals-item:hover { 
+	background-color: var(--secundary-bg-color);
+	color: var(--primary-bg-color);
+    cursor: pointer;
+}

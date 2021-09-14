@@ -1,0 +1,12 @@
+@import "../../../assets/styles/palette.css";
+
+.settings {
+	display: flex;
+    width: 100%;
+}
+
+.settings-column {    
+    padding: 2rem;
+    width: 50%;
+}
+
